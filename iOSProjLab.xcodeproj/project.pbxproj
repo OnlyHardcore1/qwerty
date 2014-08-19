@@ -22,6 +22,8 @@
 		26D8540219A3280200C1B79B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D853E119A3280200C1B79B /* UIKit.framework */; };
 		26D8540A19A3280200C1B79B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26D8540819A3280200C1B79B /* InfoPlist.strings */; };
 		26D8540C19A3280200C1B79B /* iOSProjLabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D8540B19A3280200C1B79B /* iOSProjLabTests.m */; };
+		26EFC6B419A36C810065CA10 /* Apply.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EFC6B319A36C810065CA10 /* Apply.m */; };
+		26EFC6B719A36CC70065CA10 /* Information.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EFC6B619A36CC70065CA10 /* Information.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		26D8540719A3280200C1B79B /* iOSProjLabTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSProjLabTests-Info.plist"; sourceTree = "<group>"; };
 		26D8540919A3280200C1B79B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		26D8540B19A3280200C1B79B /* iOSProjLabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSProjLabTests.m; sourceTree = "<group>"; };
+		26EFC6B219A36C810065CA10 /* Apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apply.h; sourceTree = "<group>"; };
+		26EFC6B319A36C810065CA10 /* Apply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apply.m; sourceTree = "<group>"; };
+		26EFC6B519A36CC70065CA10 /* Information.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Information.h; sourceTree = "<group>"; };
+		26EFC6B619A36CC70065CA10 /* Information.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Information.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				26D853EC19A3280200C1B79B /* xyzAppDelegate.h */,
 				26D853ED19A3280200C1B79B /* xyzAppDelegate.m */,
 				26D853EF19A3280200C1B79B /* Main_iPhone.storyboard */,
+				26EFC6B519A36CC70065CA10 /* Information.h */,
+				26EFC6B619A36CC70065CA10 /* Information.m */,
+				26EFC6B219A36C810065CA10 /* Apply.h */,
+				26EFC6B319A36C810065CA10 /* Apply.m */,
 				26D853F219A3280200C1B79B /* Main_iPad.storyboard */,
 				26D853F519A3280200C1B79B /* xyzViewController.h */,
 				26D853F619A3280200C1B79B /* xyzViewController.m */,
@@ -254,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26EFC6B419A36C810065CA10 /* Apply.m in Sources */,
+				26EFC6B719A36CC70065CA10 /* Information.m in Sources */,
 				26D853F719A3280200C1B79B /* xyzViewController.m in Sources */,
 				26D853EE19A3280200C1B79B /* xyzAppDelegate.m in Sources */,
 				26D853EA19A3280200C1B79B /* main.m in Sources */,
@@ -471,6 +483,7 @@
 				26D8541119A3280200C1B79B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26D8541219A3280200C1B79B /* Build configuration list for PBXNativeTarget "iOSProjLabTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +492,7 @@
 				26D8541419A3280200C1B79B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
